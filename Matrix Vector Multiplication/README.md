@@ -5,16 +5,16 @@ For this assignment, I will be running a program that will perform a matrix vect
 For this assignment, I will be running the program on MacOS.
 ## Testing the Program
 
-###Running the program:
+### Running the program:
 
 To run the program, I inputted the following command on the terminal:
 
-###Command:
+### Command:
 ```
 make; ./main.out
 ```
 
-###Output:
+### Output:
 ```
 Test #1:
 Actual V[0] = 21; Expected V[0] = 21
@@ -34,12 +34,12 @@ This code tests out the `multiply_vector_matrix()` function which has four input
 
 To check the time complexity of this program, I used the command below on the terminal. The purpose of this is to find the amount of time needed to calculate the multiplication of `N*N Matrix` with `N-Vector`. For this test, the value of `N` is `1000`.
 
-###Command:
+### Command:
 ```
 make time; ./main_b_time.out
 ```
 
-###Output: 
+### Output: 
 
 ```
 Time elapsed: 2.363000 ms
@@ -55,12 +55,12 @@ Below is a graph showing the amount of time needed to complete an operation rela
 
 To check the space complexity of this program, I used the command below on the terminal. The purpose of this is to find the amount of space used to calculate the multiplication of `N*N Matrix` with `N-Vector`. For this test, I will be using five different values for `N`, being `N = 500`, `N = 1000`, `N = 1500`, `N = 2000`, and `N=2500` respectively.
 
-###Command:
+### Command:
 ```
 make space; ./main_b_space.out
 ```
 
-###Output:
+### Output:
 
 After inputting the command, we open the the Activity Monitor to see multiple `main_b_space.out` programs running. 
 
