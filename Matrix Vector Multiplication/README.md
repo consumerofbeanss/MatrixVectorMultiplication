@@ -32,7 +32,7 @@ This code tests out the `multiply_vector_matrix()` function which has four input
 
 ## Time Complexity
 
-To check the time complexity of this program, I used the command below on the terminal. The purpose of this is to find the amount of time needed to calculate the multiplication of `N*N Matrix` with `N-Vector`. For this test, the value of `N` is `1000`.
+To check the time complexity of this program, I used the command below on the terminal. The purpose of this is to find the amount of time needed to calculate the multiplication of `NxN Matrix` with `N-Vector`. For this test, the value of `N` is `1000`.
 
 ### Command:
 ```
